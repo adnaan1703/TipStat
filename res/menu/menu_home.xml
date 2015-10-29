@@ -1,0 +1,93 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.kryptonapps.kon_el.trial.HomeActivity">
+
+    <item
+        android:id="@+id/action_favourite"
+        android:title="@string/action_favourite"
+        android:icon="@drawable/ic_star_small"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="@string/string_sort">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_sort_weight_asc"
+                    android:title="@string/action_sort_weight_asc"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_sort_weight_dsc"
+                    android:title="@string/action_sort_weight_dsc"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/action_sort_height_asc"
+                    android:title="@string/action_height_asc"
+                    app:showAsAction="never"/>
+
+                <item
+                    android:id="@+id/action_sort_height_dsc"
+                    android:title="@string/action_height_dsc"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/spinner_ethnicity">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_asian"
+                    android:title="Asian"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_indian"
+                    android:title="Indian"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_african_american"
+                    android:title="African American"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_asian_american"
+                    android:title="Asian Amercan"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_european"
+                    android:title="European"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_british"
+                    android:title="British"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_jewish"
+                    android:title="Jewish"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_latino"
+                    android:title="Latino"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_native_american"
+                    android:title="Native American"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_arabic"
+                    android:title="Arabic"
+                    app:showAsAction="never" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

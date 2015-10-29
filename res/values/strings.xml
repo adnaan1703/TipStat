@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Trial</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="large_text">
+        "Status is the myth.\n"
+
+        "Here I have kept a placeholder status which I felt like in case due to some internet loss"
+        " or for another reason no text is being fetched. This text is what you'll see."
+        "i hope you enjoy this app because I made it with super lot of love and fun!! :) :P ;)\n\n"
+
+    </string>
+    <string name="spinner_ethnicity">Ethnicity</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_search_result">Result</string>
+    <string name="placeholder_text">Placeholder Text. No text filled here yet from the database</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="profile_status">Status</string>
+    <string name="profile_details">Ethnicity</string>
+    <string name="profile_birthday">Birthday</string>
+    <string name="placeholder_birthday">1993-03-17</string>
+    <string name="profile_weight">Weight</string>
+    <string name="placeholder_weight">79.5 KG</string>
+    <string name="profile_height">Height</string>
+    <string name="placeholder_height">160 cm</string>
+    <string name="profile_vegetarain">is veg</string>
+    <string name="no">NO</string>
+    <string name="profile_drinks">Drinks</string>
+    <string name="yes">YES</string>
+    <string name="title_activity_favourite">favourite</string>
+    <string name="action_favourite">Favourites</string>
+    <string name="action_sort_weight_asc"><![CDATA[weight: low -> high]]></string>
+    <string name="action_sort_weight_dsc"><![CDATA[weight: hight -> low]]></string>
+    <string name="action_height_asc"><![CDATA[height: low -> high]]></string>
+    <string name="action_height_dsc"><![CDATA[height: high -> low]]></string>
+    <string name="total_members">Members</string>
+    <string name="api_hits">API Hits</string>
+    <string name="string_sort">Sort</string>
+    <string name="title_activity_garbage">GarbageActivity</string>
+    <string name="description_image">Image for submit button</string>
+</resources>
